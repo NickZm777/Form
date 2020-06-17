@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <meta charset=UTF-8">
+    <link rel="stylesheet" href="styles/form-style.css">
+</head>
+
+<body>
+    <div class="form">
+        <form action="#" method="POST">
+            <h1>Оформление заказа</h1>
+            <div class="name">
+                <label for=""> Ваше имя*</label><br>
+                <input type="text" name="name" required>
+            </div>
+
+            <div class="phone">
+                <label for="">Телефон (с кодом)*</label><br>
+                <input type="tel" name="phone" id="" placeholder="+375 (--)"required>
+            </div>
+
+            <div class="email">
+                <label for="">Email*</label><br>
+                <input type="email" name="email" id="" placeholder="example@gmail.com" required>
+            </div>
+
+            <div class="no_delivery">
+                <label for="">
+                    <input type="checkbox" name="no_delivery" id="">
+                    без доставки, скидка 10% <a href="#">выберите пункт самовывоза</a>
+                </label>
+            </div>
+
+            <div class="city">
+                <label for="">Город*</label><br>
+                <input type="text" name="city" id="" required>
+            </div>
+
+            <div class="street">
+                <label for="">Улица*</label><br>
+                <input type="text" name="street" id="" required>
+            </div>
+
+            <div class="unit">
+                <label for="">Дом*</label><br>
+                <input type="text" name="unit" id="" required>
+            </div>
+
+            <div class="apartment">
+                <label for="">Квартира</label><br>
+                <input type="text" name="apartment" id="">
+            </div>
+
+            <div class="persons">
+                <label for="">Количество персон*</label>
+                <input type="number" name="persons" id="" required>
+            </div>
+
+            <div class="date">
+                <label for="">Дата доставки*</label>
+                <input type="date" name="date" id="" required>
+            </div>
+
+            <div class="comment">
+                <p>Комментерии к заказу:</p>
+                <p><textarea name="comment" id="" cols="80" rows="10" placeholder="Например удобное время доставки, № подъезда, этаж и др."></textarea></p>
+            </div>
+
+            <div class="service">
+                <p><label for="">Выберите куьерскую службу:</label></p>
+                <p><label for=""><input type="radio" name="Выберите куьерскую службу:" id="" value="mxt" required>Mxt.by</label>
+                <label for=""><input type="radio" name="Выберите куьерскую службу:" id="" value="gohard" required>GoHard.pl</label>
+                <label for=""><input type="radio" name="Выберите куьерскую службу:" id="" value="lineexpress" required>LineExpress</label>
+                <label for=""><input type="radio" name="Выберите куьерскую службу:" id="" value="deliveryboss" required>DeliveryBOSS</label></p>
+                
+            </div>
+
+            <div class="delivery_date">
+                <label for="">
+                    <input type="checkbox" name="delivery_date" id="">
+                    я хочу получить заказ не позже указанной даты
+                </label>
+            </div>
+
+            <div class="approve">
+                <button type="submit">Отправить</button>
+                <button type="reset">Очистить</button>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+</html>

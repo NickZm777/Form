@@ -1,0 +1,92 @@
+body {
+    background-color: silver;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: red;
+}
+.form {
+    width: 70%;
+    margin: 0px auto;
+    border-radius: 10px;
+    background-color: rgb(53, 53, 53);
+    
+}
+
+div {
+    margin: 10px;
+    
+}
+
+input {
+    padding: 5px;
+    background-color: rgb(212, 209, 209);
+    color: rgb(109, 108, 108);
+    font-size: 1.2em;
+    border-radius: 3px;
+}
+
+label {
+    color: white;
+}
+
+.name, .phone, .email {
+    display: inline-block;
+    width: 30%;
+}
+
+.city, .street, .unit, .apartment {
+    display: inline-block;
+}
+
+
+.unit input, .apartment input {
+    width: 40%;
+}
+
+.persons, .date {
+    display: inline-block;
+}
+
+.persons input {
+    width: 20%;
+}
+
+.comment input {
+    width: 70%;
+    min-height: 250px;
+}
+
+.no_delivery label {
+    color: red;
+}
+
+.no_delivery label a {
+    color: rgb(0, 174, 255);
+}
+
+.no_delivery label a:hover {
+    color: rgb(145, 255, 0);
+}
+
+.service label {
+    color: rgb(243, 21, 243);
+}
+
+.delivery_date label {
+    color: rgb(255, 145, 0);
+}
+
+.comment {
+    color: whitesmoke
+}
+
+.approve button {
+    border-radius: 10px;
+    background-color: yellow;
+    color: blue;
+    margin-bottom: 20px;
+}
