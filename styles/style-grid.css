@@ -1,0 +1,141 @@
+form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    column-gap: 10px;
+    width: 50%;
+    border-radius: 10px;
+    margin: 0px auto;
+    }
+div {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+h1 {
+    grid-column: 2/4;
+    text-align: center;
+}
+
+.name {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.phone {
+    grid-column: 3/4;
+    text-align: center;
+}
+
+.email {
+    grid-column: 4/5;
+    text-align: center;
+}
+
+.city {
+    grid-column: 1/2;
+    text-align: center;
+}
+
+.street {
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.unit {
+    grid-column: 3/4;
+    text-align: center;
+} 
+
+.apartment {
+    grid-column: 4/5;
+    text-align: center;
+}
+
+.no_delivery, .delivery_date {
+    grid-column: 1/4;
+}
+
+.persons {
+    grid-column: 1/2;
+    text-align: center;
+}
+.date {
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.comment, .service {
+    grid-column: 1/5;
+}
+
+.approve {
+    grid-column: 1/3;
+}
+
+.name input, 
+.comment textarea,
+.phone input,
+.email input,
+.city input,
+.street input,
+.unit input,
+.apartment input,
+.persons input,
+.date input
+  {
+    width: 100%;
+}
+
+input {
+    background-color: rgb(253, 251, 251);
+    color: rgb(109, 108, 108);
+    border-radius: 3px;
+}
+
+
+
+form {
+    background-color: azure;
+}
+
+.no_delivery label {
+    color: red;
+}
+
+.no_delivery label a {
+    color: rgb(0, 174, 255);
+}
+
+.no_delivery label a:hover {
+    color: rgb(145, 255, 0);
+}
+
+.service label {
+    color: black;
+}
+
+.delivery_date label {
+    color: red;
+}
+
+.comment {
+    color: black;
+}
+
+.approve button {
+    border-radius: 10px;
+    background-color: yellow;
+    color: blue;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+
+
+
+/*.unit input, .apartment input {
+    width: 40%;
+}*/
+
